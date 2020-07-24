@@ -2,6 +2,7 @@ import pandas as pd
 
 inpt_csv = pd.read_csv("/home/superadmin/DBDA/project/OYD/summary.csv")
 
+del inpt_csv['ID']
 
 # print(inpt_csv.head(10))
 
