@@ -12,4 +12,4 @@ Min_value = float(input("Enter min double value between 0 and 1:- "))
 for j in inpt_csv.head(Limit):
     for i in inpt_csv[j].head(Limit):
         if i> Min_value:
-            print(f"{j}: ",i)
+            print(f"{j}: ",round(i,9))
